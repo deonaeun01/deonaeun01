@@ -10,7 +10,7 @@
 ### 🙋 소개
 
 - 🎓 대한상공회의소 AI 시스템반도체 SW개발자 과정
-- 🔧 STM32 / Arduino / Raspberry Pi 등 이기종 보드를 엮는 임베디드-IoT 프로젝트에 관심이 많습니다.
+- 🔧 STM32 / Arduino / Raspberry Pi 등 이기종 보드를 엮는 임베디드-IoT 프로젝트등을 진행했습니다.
 - 🤖 최근에는 YOLO 기반 객체탐지, 소켓 통신, DB 연동을 결합한 AI 응용 프로젝트를 진행 중입니다.
 - 📫 연락처: 이슈나 Discussions로 남겨주세요.
 
