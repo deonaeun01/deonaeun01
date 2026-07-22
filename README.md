@@ -1,10 +1,6 @@
 <h1 align="center">안녕하세요 김재민 입니다 👋</h1>
 <h3 align="center">임베디드 시스템 & IoT 융합 개발자</h3>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E75B6&center=true&vCenter=true&width=520&lines=Embedded+%2B+IoT+%2B+AI+%EC%9C%B5%ED%95%A9+%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8;STM32+%C2%B7+FreeRTOS+%C2%B7+Verilog" alt="Typing SVG" />
-</p>
-
 ---
 
 ### 🙋 소개
