@@ -1,73 +1,73 @@
-<h1 align="center">🧊 KCCI-Fridger</h1>
-<p align="center"><b>이기종 보드 연동 스마트 냉장고 IoT 모니터링 시스템</b></p>
+<h1 align="center">Hi, I'm 데오나은 👋</h1>
+<h3 align="center">임베디드 시스템 &amp; IoT 융합 개발자</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" />
-  <img src="https://img.shields.io/badge/FreeRTOS-449920?style=flat-square&logo=freertos&logoColor=white" />
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white" />
-  <img src="https://img.shields.io/badge/C-99.4%25-blue?style=flat-square" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E75B6&center=true&vCenter=true&width=520&lines=Embedded+%2B+IoT+%2B+AI+%EC%9C%B5%ED%95%A9+%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8;STM32+%C2%B7+FreeRTOS+%C2%B7+Verilog;Socket+%ED%86%B5%EC%8B%A0+%2B+DB+%EC%97%B0%EB%8F%99+%EA%B0%9C%EB%B0%9C" alt="Typing SVG" />
 </p>
 
 ---
 
-## 📖 개요
+### 🙋 소개
 
-STM32 · Arduino · Raspberry Pi 이기종 보드를 블루투스/Wi-Fi로 연동하여 냉장고 사용 패턴을 감지, **독거노인 안전 모니터링**을 지원하는 IoT 시스템입니다.
-대한상공회의소 AI 시스템반도체 SW개발자 과정에서 **2인 팀 프로젝트**로 진행했습니다.
+- 🎓 대한상공회의소 AI 시스템반도체 SW개발자 과정
+- 🔧 STM32 / Arduino / Raspberry Pi 등 이기종 보드를 엮는 임베디드-IoT 프로젝트에 관심이 많습니다.
+- 🤖 최근에는 YOLO 기반 객체탐지, 소켓 통신, DB 연동을 결합한 AI 응용 프로젝트를 진행 중입니다.
+- 📫 연락처: 이슈나 Discussions로 남겨주세요.
 
-## 🏗️ 시스템 구성
+---
 
-```
-[STM32]  ──Bluetooth──▶  [Arduino]  ──Wi-Fi──▶  [Raspberry Pi]  ──▶  [MariaDB]
- 센서 감지                통신 중계 · 재연결          중앙 관리 · LCD 출력      데이터 적재
-```
+### 🛠 기술 스택
 
-- **STM32**: 냉장고 문 개폐 등 센서 이벤트 감지 및 블루투스 송신
-- **Arduino**: STM32 ↔ Raspberry Pi 사이 통신 중계, Wi-Fi 클라이언트로 재연결 로직 포함
-- **Raspberry Pi**: 수신 데이터를 자체 프로토콜로 파싱, DB 적재, 우선순위 기반 LCD 출력
+<p align="left">
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Verilog-005A9C?style=for-the-badge&logo=v&logoColor=white" />
+  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/FreeRTOS-449920?style=for-the-badge&logo=freertos&logoColor=white" />
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
+  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+</p>
 
-## ✅ 담당 역할
+---
 
-| 영역 | 내용 |
-|---|---|
-| 통신 | Arduino ↔ Raspberry Pi 간 Wi-Fi 클라이언트 통신 코드 및 재연결 로직 구현 |
-| 통신 | STM32 ↔ Arduino 간 블루투스 통신 코드 수정 및 연동 |
-| 프로토콜 | 자체 프로토콜 기반 명령어 파싱 적용 |
-| DB | MariaDB 연동 및 DB 초기화 절차 수립 |
-| UI | 우선순위 기반 LCD 출력 로직 설계 |
+### 📌 대표 프로젝트
 
-## 🔧 개발 환경
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/deonaeun01/KCCI-Fridger">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=deonaeun01&repo=KCCI-Fridger&theme=default" />
+      </a>
+      <p><b>스마트 냉장고 IoT 모니터링 시스템</b><br/>
+      STM32·Arduino·Raspberry Pi를 블루투스/Wi-Fi로 연동한 독거노인 안전 모니터링 시스템. Wi-Fi 클라이언트 통신, 재연결 로직, MariaDB 연동, 우선순위 기반 LCD 출력 담당.</p>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/deonaeun01/Weight-based-automatic-classification-system">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=deonaeun01&repo=Weight-based-automatic-classification-system&theme=default" />
+      </a>
+      <p><b>Weight-based Automatic Classification System</b><br/>
+      STM32 FreeRTOS 기반 무게 자동 분류 시스템.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/deonaeun01/Air-Handling-Unit">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=deonaeun01&repo=Air-Handling-Unit&theme=default" />
+      </a>
+      <p><b>Air Handling Unit</b><br/>
+      Verilog와 Basys3를 이용한 공조기(AHU) 로직 구현.</p>
+    </td>
+  </tr>
+</table>
 
-- MCU: STM32F411XE
-- IDE / Build: STM32CubeIDE, CMake
-- RTOS: FreeRTOS
-- DB: MariaDB
+---
 
-## 📂 프로젝트 구조
+### 📊 GitHub 통계
 
-```
-KCCI-Fridger/
-├── Core/                                   # STM32 메인 애플리케이션 코드
-├── Drivers/                                # HAL / 보드 드라이버
-├── Middlewares/Third_Party/FreeRTOS/       # FreeRTOS 소스
-├── MyApp/                                  # 사용자 정의 애플리케이션 로직
-├── cmake/                                  # CMake 빌드 설정
-├── Fridger.ioc                             # STM32CubeMX 설정 파일
-└── CMakeLists.txt
-```
-
-## 🚀 빌드 방법
-
-```bash
-git clone https://github.com/deonaeun01/KCCI-Fridger.git
-cd KCCI-Fridger
-# STM32CubeIDE로 프로젝트 열기 또는
-cmake --preset <preset-name>
-cmake --build build
-```
-
-## 🙌 팀 구성
-
-- 2인 팀 프로젝트 (대한상공회의소 AI 시스템반도체 SW개발자 과정)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=deonaeun01&show_icons=true&theme=default&hide_border=true" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deonaeun01&hide_border=true" height="165"/>
+</p>
