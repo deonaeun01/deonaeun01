@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm 데오나은 👋</h1>
+<h1 align="center">Hi, I'm 김재민 👋</h1>
 <h3 align="center">임베디드 시스템 &amp; IoT 융합 개발자</h3>
 
 <p align="center">
