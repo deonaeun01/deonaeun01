@@ -1,14 +1,22 @@
-<h1 align="center">안녕하세요 김재민 입니다 👋</h1>
-<h3 align="center">임베디드 시스템 & IoT 융합 개발자</h3>
+<h1 align="center">Hi, I'm 김재민 👋</h1>
+<h3 align="center">회로의 한계를 코드로 넘어서는 임베디드 SW 개발자</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E75B6&center=true&vCenter=true&width=560&lines=Embedded+C+%2F+FreeRTOS+%2F+STM32;Wi-Fi+%2C+Bluetooth+%EC%9D%B4%EA%B8%B0%EC%A2%85+%ED%86%B5%EC%8B%A0+%EC%97%B0%EB%8F%99;%ED%9A%8C%EB%A1%9C%EC%9D%98+%ED%95%9C%EA%B3%84%EB%A5%BC+%EC%BD%94%EB%93%9C%EB%A1%9C+%EB%84%98%EC%96%B4%EC%84%9C%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90" alt="Typing SVG" />
+</p>
 
 ---
 
 ### 🙋 소개
 
-- 🎓 대한상공회의소 AI 시스템반도체 SW개발자 과정
-- 🔧 STM32 / Arduino / Raspberry Pi 등 다양한 환경에서 실습을 진행 했습니다.
-- 🤖 최근에는 YOLO 기반 객체탐지, 소켓 통신, DB 연동을 결합한 AI 응용 프로젝트를 진행 중입니다.
-- 📫 연락처: 이슈나 Discussions로 남겨주세요.
+하드웨어를 다루는 일을 하고 싶어서 전자공학을 전공했습니다. 프로젝트를 거듭할수록 좋은 회로도 그것을 움직이는 로직이 부실하면 결국 멈춰있는 부품에 불과하다는 걸 느꼈고, 회로가 가진 물리적 한계를 코드로 보강해 실제 성능으로 끌어내는 임베디드 SW 개발자를 목표로 하고 있습니다.
+
+- 🎓 호서대학교 전자공학과 (2026.02 졸업)
+- 🏫 대한상공회의소 AI 시스템반도체 SW개발자 과정 수료
+- 🔧 STM32 · FreeRTOS · Arduino · Raspberry Pi 등 이기종 보드를 엮는 임베디드-IoT 프로젝트, 다중 센서 기반 안전 시스템에 관심이 많습니다.
+- 📄 자격: 전기전자응용 초급기술사 / 정보통신 초급기술사 (2026.04)
+- 📎 Portfolio: [Notion](https://app.notion.com/p/1321acb99e54827d8cda0163c4e5a844?source=copy_link)
+- 📫 Contact: gemini0810@naver.com
 
 ---
 
@@ -16,32 +24,48 @@
 
 <p align="left">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Embedded_C-00599C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Verilog-005A9C?style=for-the-badge&logo=v&logoColor=white" />
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
   <img src="https://img.shields.io/badge/FreeRTOS-449920?style=for-the-badge&logo=freertos&logoColor=white" />
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
   <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/MediaPipe-00A98F?style=for-the-badge" />
   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+  <img src="https://img.shields.io/badge/OrCAD%2FPADS-CC2927?style=for-the-badge" />
 </p>
+
+| 분야 | 활용 능력 |
+|---|---|
+| C / Embedded C (STM32CubeIDE) | FreeRTOS 태스크 분리 및 동기화, GPIO·타이머·인터럽트 기반 제어 로직 구현, I2C·UART 통신 및 센서·액추에이터 인터페이스 |
+| Linux (Ubuntu / Raspberry Pi) | 임베디드 리눅스 커널 모듈 작성, 캐릭터 디바이스 드라이버 구현 및 GPIO·인터럽트·poll 기반 디버깅 |
+| Arduino / Raspberry Pi | Wi-Fi 소켓 통신 클라이언트 코드 수정 및 재연결 로직 추가, 자체 프로토콜 기반 명령어 파싱, MariaDB 연동 및 센서 데이터 파이프라인 구축 |
+| Verilog (Vivado / Basys3) | DHT11 단일 와이어 프로토콜 FSM 구현 및 체크섬 검증, PWM·FND 멀티플렉싱 제어, FPGA 보드 검증 |
+| Python / OpenCV | MediaPipe FaceMesh 기반 졸음 감지 알고리즘 적용 및 임계값 재설계, 웹캠 실시간 영상 처리 |
+| OrCAD / PADS Layout | 회로도 작성, PCB 레이아웃·라우팅, Copper Pour 기반 GND 처리 |
 
 ---
 
 ### 📌 대표 프로젝트
 
+**[💤 다중 센서 기반 졸음운전 방지 시스템](https://github.com/deonaeun01/Multi-sensor-based-drowsy-driving-prevention-system)**
+OpenCV·MediaPipe FaceMesh 기반 졸음 감지 + STM32 GPIO 5회 샘플링 디바운싱, 로드셀/터치센서 연동 경고 시스템 (호서대학교 졸업작품)
+`Python` `OpenCV` `MediaPipe` `STM32`
+
 **[🧊 스마트 냉장고 IoT 모니터링 시스템](https://github.com/deonaeun01/KCCI-Fridger)**
-STM32·Arduino·Raspberry Pi를 블루투스/Wi-Fi로 연동한 독거노인 안전 모니터링 시스템. Wi-Fi 클라이언트 통신, 재연결 로직, MariaDB 연동, 우선순위 기반 LCD 출력 담당.
+STM32·Arduino·Raspberry Pi를 블루투스/Wi-Fi로 연동한 독거노인 안전 모니터링 시스템. Wi-Fi 클라이언트 통신 재연결 로직, MariaDB 연동, 우선순위 기반 LCD 출력 담당 (대한상공회의소, 2인 팀)
 `C` `STM32` `FreeRTOS` `MariaDB`
 
-**[⚖️ Weight-based Automatic Classification System](https://github.com/deonaeun01/Weight-based-automatic-classification-system)**
-STM32 FreeRTOS 기반 무게 자동 분류 시스템.
-`C` `FreeRTOS`
+**[⚖️ 무게 기반 자동 분류 시스템 (로봇팔+컨베이어)](https://github.com/deonaeun01/Weight-based-automatic-classification-system)**
+PIR 센서 기반 안전 인터록 로직 설계, PCA9685 서보 Tick 캘리브레이션, FreeRTOS 태스크 분리 및 세마포어 동기화 설계 (대한상공회의소, 조장)
+`C` `FreeRTOS` `STM32` `PCA9685`
 
-**[❄️ Air Handling Unit](https://github.com/deonaeun01/Air-Handling-Unit)**
-Verilog와 Basys3를 이용한 공조기(AHU) 로직 구현.
-`Verilog`
+**스마트 인텔리전스 유모차** *(캡스톤디자인, 호서대학교)*
+터치센서 기반 손잡이 이탈 감지 및 서보모터 브레이크 제어, 블루투스 통신 기반 자이로 데이터 연동 회로 설계·제작
+`서보모터` `블루투스` `회로 설계`
 
 ---
 
