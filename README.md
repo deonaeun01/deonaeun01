@@ -1,10 +1,6 @@
 <h1 align="center">Hi, I'm 김재민 👋</h1>
 <h3 align="center">회로의 한계를 코드로 넘어서는 임베디드 SW 개발자</h3>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E75B6&center=true&vCenter=true&width=560&lines=Embedded+C+%2F+FreeRTOS+%2F+STM32;Wi-Fi+%2C+Bluetooth+%EC%9D%B4%EA%B8%B0%EC%A2%85+%ED%86%B5%EC%8B%A0+%EC%97%B0%EB%8F%99;%ED%9A%8C%EB%A1%9C%EC%9D%98+%ED%95%9C%EA%B3%84%EB%A5%BC+%EC%BD%94%EB%93%9C%EB%A1%9C+%EB%84%98%EC%96%B4%EC%84%9C%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90" alt="Typing SVG" />
-</p>
-
 ---
 
 ### 🙋 소개
